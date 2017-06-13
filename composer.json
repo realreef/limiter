@@ -1,0 +1,28 @@
+{
+    "name": "realreef/limiter",
+    "description": "Contains string function to limit words",
+    "homepage": "https://github.com/realreef/limiter",
+    "license": "MIT",
+    "keywords": ["string","words limiter"],
+    "authors": [
+        {
+            "name": "arief",
+            "email": "realreef88@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "illuminate/support": "~4.2||~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Realreef\\Limiter\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
