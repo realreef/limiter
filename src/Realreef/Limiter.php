@@ -1,6 +1,6 @@
 <?php
 
-namespace Realreef\Limiter;
+namespace Realreef;
 
 class Limiter
 {
