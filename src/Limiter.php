@@ -2,7 +2,7 @@
 
 namespace Realreef\Limiter;
 
-class Str
+class Limiter
 {
   /**
   * Limit the number of words in a string.
