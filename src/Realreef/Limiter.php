@@ -14,6 +14,8 @@ class Limiter
   */
   public static function words_limiter($value, $words = 100, $end = '...')
   {
+    if (is_array($valu)) throw new Exception('value must be string');
+
     preg_match('/^\s*+(?:\S++\s*+){1,'.$words.'}/u', $value, $matches);
 
     if (! isset($matches[0]) || mb_strlen($value) === mb_strlen($matches[0])) {
